@@ -29,7 +29,7 @@
 | Managed Network Switch  | QSW-M2116P-2T2S-US | Switch Gigabit ethernet con 20 puertos. Este switch va en el segundo nivel.           | 1        | Q6272.15      |
 | Laptop de oficina DELL  | DELL E6420         | Computadora correspondiente a los diferentes niveles y áreas.                         | 16       | Q1,795.00     |
 
-## Configuracion de las VCP
+## Configuracion de las VPC
 ### Nivel 1
 Almacenamiento_1:
 
