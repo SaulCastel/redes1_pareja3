@@ -4,25 +4,53 @@
 
 | Nombre  | Ip | Mascara de subred  |  Area | Nivel  |
 |---|---|---|---|---|
-| Almacenamiento 1  |   192.168.3.1|   255.255.255.0| Almacenamiento  |  1 |
-|  Almacenamiento 2 |  192.168.3.2 |  255.255.255.0 | Almacenamiento  |  1 |
-| Recepcion 1  |  192.168.3.3  |  255.255.255.0 | Recepcion  |  1 |
-| Recepcion 2  |  192.168.3.4  |  255.255.255.0 | Recepcion  |  1 |
-| Atencion 1 |  192.168.3.5  |  255.255.255.0 | Atencion al cliente |  2 |
-| Atencion 2 |  192.168.3.6  |  255.255.255.0 | Atencion al cliente |  2 |
-| Atencion 3 |  192.168.3.7  |  255.255.255.0 | Atencion al cliente |  2 |
-| Atencion 4 |  192.168.3.8  |  255.255.255.0 | Atencion al cliente |  2 |
-| Admin 1 |  192.168.3.9  |  255.255.255.0 | Administracion|  2 |
-| Admin 2 |  192.168.3.10  |  255.255.255.0 | Administracion|  2 |
-| Admin 3 |  192.168.3.11  |  255.255.255.0 | Administracion|  2 |
-| Gerencia 1 |  192.168.3.12  |  255.255.255.0 | Gerencia | 3
-| Gerencia 2 |  192.168.3.13  |  255.255.255.0 | Gerencia | 3
-| Operaciones 1 |  192.168.3.14  |  255.255.255.0 | Operaciones | 3
-| Operaciones 2 |  192.168.3.15  |  255.255.255.0 | Operaciones | 3
-| Operaciones 3 |  192.168.3.16  |  255.255.255.0 | Operaciones | 3
+| Almacenamiento_1  |   192.168.3.1|   255.255.255.0| Almacenamiento  |  1 |
+|  Almacenamiento_2 |  192.168.3.2 |  255.255.255.0 | Almacenamiento  |  1 |
+| Recepcion_1  |  192.168.3.3  |  255.255.255.0 | Recepcion  |  1 |
+| Recepcion_2  |  192.168.3.4  |  255.255.255.0 | Recepcion  |  1 |
+| Atencion_1 |  192.168.3.5  |  255.255.255.0 | Atencion al cliente |  2 |
+| Atencion_2 |  192.168.3.6  |  255.255.255.0 | Atencion al cliente |  2 |
+| Atencion_3 |  192.168.3.7  |  255.255.255.0 | Atencion al cliente |  2 |
+| Atencion_4 |  192.168.3.8  |  255.255.255.0 | Atencion al cliente |  2 |
+| Admin_1 |  192.168.3.9  |  255.255.255.0 | Administracion|  2 |
+| Admin_2 |  192.168.3.10  |  255.255.255.0 | Administracion|  2 |
+| Admin_3 |  192.168.3.11  |  255.255.255.0 | Administracion|  2 |
+| Gerencia_1 |  192.168.3.12  |  255.255.255.0 | Gerencia | 3
+| Gerencia_2 |  192.168.3.13  |  255.255.255.0 | Gerencia | 3
+| Op_1 |  192.168.3.14  |  255.255.255.0 | Operaciones | 3
+| Op_2 |  192.168.3.15  |  255.255.255.0 | Operaciones | 3
+| Op_3 |  192.168.3.16  |  255.255.255.0 | Operaciones | 3
+
+## Listado de Hardware
+
+## Configuracion de las VCP
+### Nivel 1
+Almacenamiento_1:
+
+    ip 192.168.3.1/24
+    save
+
+### Nivel 2
+Admin_2:
+
+    ip 192.168.3.10/24
+    save
+
+### Nivel 3
+Op_3:
+
+    ip 192.168.3.16/24
+    save
+
 
 
 ## Pcapng
 
 ### Primera captura (Ping entre areas y ARP)
 Recepcion1 a Admin3
+
+### Segunda captura (Ping entre areas)
+Atencion4 a Op_3
+
+### Tercera captura (Ping entre areas)
+Gerencia_2 a Almacenamiento_2
