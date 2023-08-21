@@ -23,6 +23,12 @@
 
 ## Listado de Hardware
 
+| Nombre                  | Modelo             | Descripción                                                                           | Cantidad |
+|-------------------------|--------------------|---------------------------------------------------------------------------------------|----------|
+| D-Link PoE+ Switch      | DGS-1210-10P       | Switch Gigabit ethernet con 10 puertos. Estos switch van en el primer y tercer nivel. | 2        |
+| Managed Network Switch  | QSW-M2116P-2T2S-US | Switch Gigabit ethernet con 20 puertos. Este switch va en el segundo nivel.           | 1        |
+| Laptop de oficina DELL  | DELL E6420         | Computadora correspondiente a los diferentes niveles y áreas.                         | 16       |
+
 ## Configuracion de las VCP
 ### Nivel 1
 Almacenamiento_1:
