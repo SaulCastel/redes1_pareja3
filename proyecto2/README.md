@@ -96,3 +96,20 @@
 4. A la siguiente subred del listado se le pone de ID de red la Ip que se encuentra directamente después a la dirección de Broadcast de la subred que estamos calculando.
 
 5. Se repite el proceso 3-4 para las siguientes VLAN hasta haber cubierto todas las VLAN de la red del Core.
+
+## Imagenes de la topología
+
+### Sede Central
+![Sede Central](./Images/Central.png)
+
+### Conexión Sede Central con el Core
+![Salida Sede Central](./Images/Salidad-Central.png)
+
+### Core
+![Core](./Images/Core.png)
+
+### Sede Villa Nueva
+![Sede Villa Nueva](./Images/Villa%20Nueva.png)
+
+### Conexión Sede Villa Nueva con el Core
+![Salida Sede Villa Nueva](./Images/Salir-VN.png)
